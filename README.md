@@ -107,5 +107,6 @@ TEST_FOR_VIDEO : true
 
 隨著用戶移動，紅色框框也因接收到的RSSI值不同而及時變化，達到用戶追蹤的效果。
 
-
+### 在 yolov7 使用
+python detect_and_crop.py --cfg ./BLE/config/U19e_outdoor0428test1_ob.yaml --source ./BLE/videos/0428test1_ob.mp4 --weight yolov7.pt --conf 0.8 --img-size 640 --view-img
 
